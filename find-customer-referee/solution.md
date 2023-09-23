@@ -26,8 +26,8 @@ The result format is in the following example.
 Example 1:
 
 Input: 
-Customer table:
 ```
+Customer Table:
 +----+------+------------+
 | id | name | referee_id |
 +----+------+------------+
