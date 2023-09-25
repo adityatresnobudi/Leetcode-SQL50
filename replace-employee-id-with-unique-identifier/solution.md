@@ -75,7 +75,7 @@ Explanation:
 - The unique ID of Jonathan is 1.
 
 ## Solution
-```
+```sql
 # Write your MySQL query statement below
 SELECT
     eu.unique_id,

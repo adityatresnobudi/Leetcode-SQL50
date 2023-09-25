@@ -50,8 +50,9 @@ Output:
 | 7    |
 +------+
 ```
+
 ## Solution
-```
+```sql
 # Write your MySQL query statement below
 SELECT DISTINCT
     author_id as id

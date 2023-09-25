@@ -21,7 +21,6 @@ Return the result table in any order.
 
 The result format is in the following example.
 
- 
 
 Example 1:
 
@@ -50,8 +49,9 @@ Output:
 | Zack |
 +------+
 ```
+
 ## Solution
-```
+```sql
 # Write your MySQL query statement below
 SELECT
     name

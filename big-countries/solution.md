@@ -54,8 +54,9 @@ Output:
 | Algeria     | 37100000   | 2381741 |
 +-------------+------------+---------+
 ```
+
 ## Solution
-```
+```sql
 # Write your MySQL query statement below
 SELECT
     name,
