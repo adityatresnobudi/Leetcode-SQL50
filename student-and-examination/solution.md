@@ -168,7 +168,7 @@ The '...' means that there are more data but Leetcode doesn't show them.
 ```
 We get the output from both table (the `CROSS JOIN` between `Students` and `Subjects` table from the previous step and `Examinations` table), the first three fields are from the `CROSS JOIN` and the last two fields are from `Examinations` table.
 
-Now for the `attended_exams` fields, we can count how many time `student_id` showed up, notice that there is `NULL` value for Bob programming exam because Bob never attended one, so because of this reason we can use `student_id` from `Examinations` table to count `attended_exams`, we group them by `student_id` and `student_name` from `Students` table and `subject_name` from `Subjects` table.
+Now for the `attended_exams` fields, we can count how many time `student_id` showed up, notice that there is `NULL` value for Bob physics exam because Bob never attended one, so because of this reason we can use `student_id` from `Examinations` table to count `attended_exams`, we group them by `student_id` and `student_name` from `Students` table and `subject_name` from `Subjects` table.
 
 ```sql
 # Write your MySQL query statement below
